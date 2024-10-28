@@ -10,8 +10,8 @@ import "../globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "QuizQube - Home",
-  description: "QuizQube is an AI-powered quiz platform that helps you learn and test your knowledge.",
+  title: "VQuiz",
+  description: "VQuiz is an AI-powered quiz platform that helps you learn and test your knowledge.",
 };
 
 const ubuntu = Ubuntu({
