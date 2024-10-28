@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
                 <div className="mr-4 hidden md:flex">
                     <Link href="/home" className="mr-6 flex items-center space-x-1 font-bold">
                         <Image src="/quizqube.svg" alt="QuizQube" width={100} height={100} className="inline-block w-9 h-9" />
-                        <span className="hidden font-bold sm:inline-block">QuizQube</span>
+                        <span className="hidden font-bold sm:inline-block">VQuiz</span>
                     </Link>
                 </div>
                 <Sheet>
@@ -37,14 +37,11 @@ const Navbar: React.FC = () => {
                     </SheetTrigger>
                     <SheetContent side="left">
                         <Link href="/home" className="flex items-center">
-                            <span className="font-bold">QuizQube</span>
+                            <span className="font-bold">VQuiz</span>
                         </Link>
                     </SheetContent>
                 </Sheet>
                 <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-                    <div className="w-full flex-1 md:w-auto md:flex-none">
-                        <Badge variant="outline" className="hidden md:inline-flex">Beta: Outputs may have errors</Badge>
-                    </div>
                     <DropdownMenu>
                         <DropdownMenuTrigger asChild>
                             <Button variant="ghost" className="relative h-8 w-8 rounded-full">

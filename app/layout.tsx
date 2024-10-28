@@ -6,11 +6,8 @@ import { ViewTransitions } from 'next-view-transitions'
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "QuizQube",
-  description: "QuizQube is an AI-powered quiz platform that helps you learn and test your knowledge.",
-  openGraph: {
-    images: ["https://quizqube.eljakani.me/quizqube_featured.png"],
-  },
+  title: "VQuiz",
+  description: "VQuiz is an AI-powered quiz platform that helps you learn and test your knowledge."
 };
 
 const ubuntu = Ubuntu({

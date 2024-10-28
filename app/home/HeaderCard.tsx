@@ -25,17 +25,9 @@ const HeaderCard: React.FC = () => {
                   👋
                 </span>
                 </CardTitle>
-              <CardDescription>Welcome back to QuizQube!</CardDescription>
+              <CardDescription>Welcome back to VQuiz!</CardDescription>
             </div>
           </div>
-          <Button 
-            variant="outline" 
-            className="bg-foreground hover:bg-background/80 text-background transition-all duration-300 ease-in-out"
-            onClick={() => window.open('https://github.com/Eljakani/QuizQube', '_blank')}
-          >
-            <Star className="h-5 w-5 mr-1" />
-            Star us on GitHub
-          </Button>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
           <StatItem 

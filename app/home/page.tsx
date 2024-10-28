@@ -249,7 +249,7 @@ export default function QuizDashboard() {
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="flex flex-col items-center justify-center h-full min-h-[400px] h-full"
+                    className="flex flex-col items-center justify-center min-h-[400px] h-full"
                   >
                     <div className="text-center flex flex-col items-center space-y-4 h-full">
                       <Box className="h-24 w-24 text-primary mb-4" />
