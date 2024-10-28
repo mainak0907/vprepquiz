@@ -8,7 +8,6 @@ import { Link, useTransitionRouter } from 'next-view-transitions'
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { useSession, signOut } from 'next-auth/react'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
 
 const Navbar: React.FC = () => {

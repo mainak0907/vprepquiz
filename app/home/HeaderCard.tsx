@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, CardTitle, CardDescription } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
-import { BookOpen, Brain, Star, Trophy } from 'lucide-react';
+// import { Button } from "@/components/ui/button";
+import { BookOpen, Brain, Trophy } from 'lucide-react';
 import { useSession } from 'next-auth/react';
 import { useUserStats } from './UserStatsContext';
 
